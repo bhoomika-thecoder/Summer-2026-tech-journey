@@ -5,7 +5,7 @@
 
 - DSA in C++
 - Linux
-- Cloud Fundamentals
+- Cloud 
 - Docker 
 - AI Fundamentals
 
@@ -14,7 +14,7 @@
 Build strong foundations in:
 - DSA
 - Linux
-- Cloud Fundamentals
+- Cloud 
 - Docker
 - AI Fundamentals
 
@@ -22,7 +22,7 @@ Build strong foundations in:
 
 - [x] DSA Started
 - [ ] Linux
-- [ ] Cloud Fundamentals
+- [ ] Cloud 
 - [ ] Docker
 - [ ] AI Fundamentals
 
@@ -31,7 +31,7 @@ Build strong foundations in:
 ```text
 dsa/
 linux/
-cloud-fundamentals/
+cloud/
 docker/
 ai-fundamentals/
 projects/
