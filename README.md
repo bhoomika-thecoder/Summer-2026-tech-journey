@@ -1,5 +1,5 @@
 # Summer-2026-tech-journey
-Summer 2026 technical learning journey: DSA, AI, Cloud, DevOps, Projects, certifications, and weekly progress logs. 
+[ DSA, AI, Cloud, DevOps, Projects, certifications, and weekly progress logs ]
 
 This repository documents my Summer 2026 learning journey.
 
