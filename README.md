@@ -1,51 +1,49 @@
 # Summer-2026-tech-journey
-[ DSA, AI, Cloud, DevOps, Projects, certifications, and weekly progress logs ]
-
-This repository documents my Summer 2026 learning journey.
-
-## Goals
-
-- Strengthen Data Structures & Algorithms
-- Learn AI and Generative AI fundamentals
-- Explore Vector Databases and RAG
-- Build Cloud and DevOps skills
-- Create practical projects
-- Maintain consistency and public accountability
+> Documenting my Summer 2026 learning journey through DSA, Cloud Computing, Docker, and AI Fundamentals, projects, and weekly progress updates.
 
 ## Current Focus
 
 - DSA in C++
-- Generative AI
-- LangChain
-- Vector Databases
-- Cloud Computing
-- Docker & Kubernetes
+- Linux
+- Cloud Fundamentals
+- Docker 
+- AI Fundamentals
+
+## Current Goal
+
+Build strong foundations in:
+- DSA
+- Linux
+- Cloud Fundamentals
+- Docker
+- AI Fundamentals
 
 ## Progress
 
-| Area | Status |
-|--------|--------|
-| DSA | In Progress |
-| AI Fundamentals | In Progress |
-| RAG | Planned |
-| Docker | Planned |
-| Kubernetes | Planned |
-| AWS | Planned |
+- [x] DSA Started
+- [ ] Linux
+- [ ] Cloud Fundamentals
+- [ ] Docker
+- [ ] AI Fundamentals
+
+## Repository Structure
+
+```text
+dsa/
+linux/
+cloud-fundamentals/
+docker/
+ai-fundamentals/
+projects/
+weekly-updates/
+```
 
 ## Weekly Logs
 
-See `/weekly-updates`
+Progress updates and reflections are documented in:
+weekly-updates/
 
-## Projects
+## Why This Repository?
+This repository serves as a public record of my learning journey and helps me stay accountable while building technical skills through consistent practice and projects.
 
-See `/projects`
-
-## Tech Stack
-
-- C++
-- Python
-- Git & GitHub
-- Docker
-- Linux
-- AWS
-- LangChain
+-> Small progress every day compounds into big results.
