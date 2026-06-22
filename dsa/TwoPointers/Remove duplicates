@@ -1,0 +1,34 @@
+/*
+Problem: Remove duplicates from a sorted array
+
+Pattern: Two Pointers
+
+Difficulty: Easy
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+-Key Idea:
+
+ i = index of last unique element found // i=0; 
+
+ j = current element being checked // j=1;
+
+- used a while loop (j<n) // where n is the length of the given sorted array
+
+- If nums[i] != nums[j]; // new unique element is found
+- Then move i forward. // i++; 
+Place it at:
+    nums[i+1] = nums[j]; 
+
+Then move j forward. // j++ 
+
+At the end:
+    Number of unique elements = i + 1
+
+/*
+Learnings:
+- Two Pointer pattern works efficiently on sorted arrays.
+- also for reducing space! 
+*/
+*/
