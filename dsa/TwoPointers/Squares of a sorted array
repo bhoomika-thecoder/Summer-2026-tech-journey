@@ -1,0 +1,50 @@
+/*
+Problem: Squares of a Sorted Array
+
+Pattern: Two Pointers / Merge Sorted Arrays
+
+Difficulty: Easy
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+The main problem occured (mainly because of the negative elements) :
+
+* The original array is sorted.
+* Negative numbers become positive after squaring.
+* The squared negative part will be in decreasing order.
+* The squared positive part will remain in increasing order.
+
+My Approach:
+
+1. Split the array into:
+
+   * Negative numbers
+   * Non-negative numbers
+
+2. Square all elements.
+
+3. Reverse the squared negative array so that it becomes sorted.
+
+4. Merge the two sorted arrays using two pointers.
+
+Example:
+
+nums = [-4, -1, 0, 3, 10]
+
+Negative part:
+[-4, -1] -> [16, 1] -> reverse -> [1, 16]
+
+Positive part:
+[0, 3, 10] -> [0, 9, 100]
+
+Merge:
+[0, 1, 9, 16, 100]
+
+Learnings:
+
+* A sorted array may become unsorted after applying a transformation.
+* Splitting the array into sorted regions can simplify the problem.
+* The merge technique from Merge Sort can be used to combine two sorted arrays efficiently.
+* Always think about the properties of the input before jumping into coding.
+  */
