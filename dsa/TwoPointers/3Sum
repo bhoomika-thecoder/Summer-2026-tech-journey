@@ -1,0 +1,21 @@
+/*
+Problem: 3Sum
+
+Pattern: sorting+ Two Pointers
+
+Difficulty: Medium
+
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+
+-Key Idea:
+
+1. Sort the array.
+2. Fix one element i.
+3. Use two pointers (left = i+1, right = n-1) to search for the remaining two numbers.
+4. If the current sum is too small, move left.
+5. If it's too large, move right.
+6. If it's exactly the target, save the triplet and skip duplicates for i, left, and right.
+
+*/
+*/
