@@ -1,0 +1,21 @@
+## Problem: Merge Strings Alternately
+
+**Pattern:** Two Pointers / Simulation
+
+**Difficulty:** Easy
+
+**Time Complexity:** O(n + m)
+
+**Space Complexity:** O(n + m)
+
+### Key Idea
+
+- Traverse both strings simultaneously using one index.
+- Append one character from the first string and then one from the second.
+- Once one string finishes, append the remaining characters of the longer string.
+- Since every character is visited exactly once, the solution is linear.
+
+### Learning
+
+- Practiced simultaneous traversal of two sequences.
+- Learned how to handle strings of different lengths without causing index errors.
