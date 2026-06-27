@@ -1,0 +1,23 @@
+Problem : Can Place Flowers
+
+Pattern: Greedy
+
+Difficulty: Easy
+
+Time Complexity: O(n)
+
+Space Complexity: O(1)
+
+Key Idea
+Traverse each plot in the flowerbed.
+Only consider empty plots (0).
+Check whether the left and right neighboring plots are empty (or don't exist).
+If both sides are empty:
+Plant a flower (flowerbed[i] = 1)
+Decrement n
+If n becomes 0, return true.
+After checking all plots, return whether all required flowers were planted.
+What I Learned
+Handling edge cases using boundary checks.
+Applying the Greedy approach by planting flowers whenever it's safe.
+Modifying the input array to simplify the solution.
