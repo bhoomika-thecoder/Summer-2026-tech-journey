@@ -1,0 +1,25 @@
+
+Problem 1: Kids With the Greatest Number of Candies
+
+Pattern: Array Traversal
+
+Difficulty: Easy
+
+Time Complexity: O(n)
+
+Space Complexity: O(n)
+
+Key Idea:
+Find the maximum number of candies among all children using max_element().
+Create a boolean vector result initialized with false.
+Traverse the array once.
+
+For each child, check if:
+
+candies[i] + extraCandies >= maximum candies
+If true, mark result[i] = true.
+Return the boolean vector.
+What I Learned
+How to use max_element() from STL.
+Creating and returning a vector<bool>.
+Solving array problems by preprocessing (finding the maximum first) before iterating.
