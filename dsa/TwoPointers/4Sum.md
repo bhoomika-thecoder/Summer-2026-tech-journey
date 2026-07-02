@@ -1,21 +1,24 @@
-/*
-Problem: 4Sum
+### Problem: 4Sum
 
-Pattern: Sorting+ Two Pointers
+### Pattern: 
+Sorting+ Two Pointers
 
-Difficulty: Medium
+#### Difficulty: 
+Medium
 
-Time Complexity: sorting- O(n log n), nested loops+ two pointer: O(n^3)
-Space Complexity: O(1)
+### Time Complexity: 
+sorting- O(n log n), nested loops+ two pointer: O(n^3)
+### Space Complexity: 
+O(1)
 
--Approach:
+### Approach:
 1. sort the array
 2. fix the first element (i)
 3. fix the second element {j)
 4. use two pointers (l and h) to find the remaining two numbers. 
 5. skip the duplicate values for i,j,l, and h to avoid duplicate quadruplets.
 
-- Algorithm:
+### Algorithm:
 1. sort the array.
 2. Iterate through the array with i
 3. skip the duplicate values of i
@@ -39,12 +42,12 @@ long long sum= 1LL* nums[l] + nums[h];
 
 9. skip duplicate values after finding a vaild qudaruplet
 
--why Sorting? 
+### why Sorting? 
 it allows us to use the 2 pointer technique.
 easily skip duplicate elements
 reduce time complexity from O(n^4) TO O(n^3) 
 
--why use long long? 
+### why use long long? 
 
 so, while solving, i encountered a runtime error because of integer overflow.
 
@@ -65,5 +68,3 @@ long long sum= 1LL* nums[l] = nums[h];
 
 so, 1LL converts the entire expression into long long, thus preventing overflow.
 
-*/
-*/
