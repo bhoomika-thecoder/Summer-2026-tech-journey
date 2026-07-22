@@ -1,14 +1,13 @@
-/*
-Problem: 3Sum closest
+## Problem: 3Sum closest
 
-Pattern: sorting + Two Pointers
+### Pattern: sorting + Two Pointers
 
-Difficulty: Medium
+### Difficulty: Medium
 
-Time Complexity: O(n^2)
-Space Complexity: O(1)
+### Time Complexity: O(n^2)
+### Space Complexity: O(1)
 
--Key Idea:
+###-Key Idea:
 
 1. Sort the array.
 2. Fix one element using i.
@@ -19,5 +18,3 @@ Space Complexity: O(1)
 7. If sum > target, move right to decrease the sum.
 8. If sum == target, return immediately because you can't get any closer than an exact match.
 
-*/
-*/
