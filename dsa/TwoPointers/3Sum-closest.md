@@ -7,7 +7,7 @@
 ### Time Complexity: O(n^2)
 ### Space Complexity: O(1)
 
-###-Key Idea:
+### Key Idea:
 
 1. Sort the array.
 2. Fix one element using i.
