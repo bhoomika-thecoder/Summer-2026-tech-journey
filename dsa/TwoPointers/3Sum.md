@@ -1,14 +1,13 @@
-/*
-Problem: 3Sum
+## Problem: 3Sum
 
-Pattern: sorting+ Two Pointers
+### Pattern: sorting+ Two Pointers
 
-Difficulty: Medium
+### Difficulty: Medium
 
-Time Complexity: O(n^2)
-Space Complexity: O(1)
+### Time Complexity: O(n^2)
+### Space Complexity: O(1)
 
--Key Idea:
+### Key Idea:
 
 1. Sort the array.
 2. Fix one element i.
@@ -16,6 +15,3 @@ Space Complexity: O(1)
 4. If the current sum is too small, move left.
 5. If it's too large, move right.
 6. If it's exactly the target, save the triplet and skip duplicates for i, left, and right.
-
-*/
-*/
